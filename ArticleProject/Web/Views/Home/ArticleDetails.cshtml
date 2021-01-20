@@ -1,0 +1,40 @@
+﻿@model List<Entity.DTOS.ArticleDtos.ArticleListDto>
+@{
+    ViewData["Title"] = "ArticleDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@foreach (var it in Model)
+{
+    <div class="container">
+        <br />
+        <div class="form-group text-center"><h1>@it.Title</h1></div>
+        <br />
+        <p class="card-text">
+            <div class="metin">
+
+                @*@it.ShortDescription
+                    <br />*@
+                @it.Description
+            </div>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+                    <label>Yazar Adı:</label>   <div class="pull-right">@it.Writer</div>
+                    <label>Tarih :</label> <div class="pull-right">@it.Date.ToString("dd-MM-yyyy")</div>
+                </div>
+            </div>
+          
+
+        </p>
+
+    </div>}
+
