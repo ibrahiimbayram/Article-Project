@@ -22,7 +22,7 @@ Cevap : Kullandığım teknoloji ve kütüphaneler hakkında profesyonel olarak 
         
         DTO : Veri taşıma amacıyla kullanılır.
         
-        Dependency Injection : Bağımlılıkları minimize etmek amacıyla kullanılır.Büyük projelerde kod karmaşıklığını önler ve yapıların bağımlılıkları minimize edildiğinden dolayı         projede değişiklik yapılmasını kolaylaştırır.
+        Dependency Injection : Bağımlılıkları minimize etmek amacıyla kullanılır.Büyük projelerde kod karmaşıklığını önler ve yapıların bağımlılıkları minimize edildiğinden dolayı projede değişiklik yapılmasını kolaylaştırır.
         
 Soru3 : Daha geniş vaktiniz olsaydı projeye neler eklemek isterdiniz?
 
