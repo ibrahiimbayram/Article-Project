@@ -1,4 +1,10 @@
 # Article-Project
+
+Projeyi appsettings.json connection string ile veritabanı adını değiştirerek çalıştırabilirsiniz. Projede bulunan veritabanı scripti kullanılmayacak ise Package Manager Console aracılığı ile sırasıyla şu işlemler yapılmalıdır
+
+1- add-migration migration adı 
+2- update-database
+
  
 Soru 1 :Projede kullanıdığınız tasarım desenleri hangileridir? Bu desenleri neden kullandınız?
 
